@@ -1,0 +1,165 @@
+.hobby {
+    font-size: 100px;
+    color: #1a1818;
+}
+.los {
+    font-size:100px;
+    color: #204835;
+}
+body{
+    background-image: url('bilder/Karl.jpg');
+    background-size: 100% 1000%;
+    background-repeat: no-repeat;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap:20px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.right-column
+{
+    padding: 20px;
+    justify-self: end;
+}
+.left-column
+{
+    padding: 20px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    max-width: 980px;
+    margin: 20px auto;
+}
+.Karte{
+    background-color: #204835;
+    border: 2px solid #1a1818;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.Karte img{
+    width: 200px; height: 200px; border-radius: 30px;
+}
+#formular{
+    font-family: Arial;
+    font-size: 32px;
+    color: #204835;
+}
+.glitzer-text
+{
+    font-size: 48px;
+    font-weight: bold;
+    font-size:100px;
+    background: linear-gradient(
+        90deg,
+        #fff 0%,
+        #204835 25%,
+        #fff 50%,
+        #ffd700 75%,
+        #fff 100%
+    );
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: glitzern 3s linear infinite;
+}
+.Beschreibung{
+    font-family: Arial; color: rgb(28, 27, 27);
+}
+@keyframes glitzern {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+.Karte{
+    background-color: antiquewhite;
+}
+.Name{
+    font-family: Arial; font-size: 30px;
+}
+#formular label, #formular input[type="checkbox"]{
+    font-family: Arial; 
+}
+#formular input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    
+}
+.hobby, .los{
+    font-family: Arial;
+    font-weight: bold;
+}
+.Willkommen{
+    font-size: 30px;
+    font-family: Arial;
+}
+#formular input[type="submit"] {
+    font-family: Arial;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(172, 171, 171);
+    margin-top: 20px;
+}
+
+    
+
+.los
+{
+    font-size: 48px;
+    font-weight: bold;
+    font-size:100px;
+    background: linear-gradient(
+        90deg,
+        hsl(0, 88%, 48%) 0%,
+        #cdd016 25%,
+        #0fbd2c 50%,
+        #178ad1 75%,
+        #bd1bc9 100%
+    );
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: glitzern 3s linear infinite;
+}
+@keyframes glitzern {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}a{
+    font-size: 87px;
+}
+.bilder{
+    border-radius: 70px;
+}
+.containerlos{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap:20px;
+}
+.right-column
+{
+    padding: 20px;
+    justify-self: end;
+}
+.left-column
+{
+    padding: 20px;
+}
+.Karte{
+    margin-top: 10px;
+}

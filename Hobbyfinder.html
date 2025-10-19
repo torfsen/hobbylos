@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HOBBYLOs</title>
+        <link rel="stylesheet" href="style.css" /> 
+</head>
+    <body>
+        <h1><span class="hobby">Hobby</span><span class="los">los</span></h1>
+        <p class="Willkommen">Willkommen bei Hobbylos!</p>
+     
+        <div id="fragenliste"></div>
+        <div id="ergebnis"></div>
+        <script type="text/javascript" src="fragen.js"></script>
+        <script type="text/javascript" src="hobbys.js"></script>
+        <script type="text/javascript" src="hobbylos.js"></script>
+        <script>
+            fragenliste_ausgeben(fragen);
+            const formular = document.getElementById("formular");
+            formular.addEventListener("submit", vorschlagen);
+        </script>
+    </body>
+</html>
